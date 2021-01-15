@@ -26,7 +26,7 @@ class Phonebook extends Component {
       notice({
         text: `${user.name} is already in contacts`,
         delay: 1500,
-        width: '270px',
+        width: '300px',
       });
       return;
     }
@@ -35,7 +35,7 @@ class Phonebook extends Component {
       notice({
         text: `${user.number} is already in use`,
         delay: 1500,
-        width: '270px',
+        width: '300px',
       });
       return;
     }
@@ -44,7 +44,7 @@ class Phonebook extends Component {
       notice({
         text: 'Please enter a name',
         delay: 1500,
-        width: '270px',
+        width: '300px',
       });
       return;
     }
@@ -53,7 +53,7 @@ class Phonebook extends Component {
       notice({
         text: 'Please enter a number',
         delay: 1500,
-        width: '270px',
+        width: '300px',
       });
       return;
     }
@@ -63,7 +63,7 @@ class Phonebook extends Component {
       notice({
         text: 'Рlease enter the correct phone number',
         delay: 1500,
-        width: '270px',
+        width: '300px',
       });
 
       return;
