@@ -20,8 +20,8 @@ const Form = styled.form`
   }
 
   .form_input {
-    height: 40px;
-    padding: 10px 20px;
+    height: 46px;
+    padding: 5px 20px;
     border-radius: 10px;
 
     outline: none;
@@ -35,11 +35,12 @@ const Form = styled.form`
   .form_btn {
     margin: 0 auto 40px;
     width: 200px;
-    height: 40px;
+    height: 50px;
+    font-size: 18px;
     font-weight: 700;
     color: #fff;
     background-color: #7915c5;
-    border-color: #64787b;
+    border-color: #7915c5;
 
     border-radius: 5px;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -49,7 +50,7 @@ const Form = styled.form`
     &:hover {
       color: #7915c5;
       background-color: #fff;
-      border-color: #883dc7f2;
+      border: 2px solid #883dc7f2;
       box-shadow: 6px 8px 18px 3px rgba(98, 46, 150, 0.23);
 
       outline: none;

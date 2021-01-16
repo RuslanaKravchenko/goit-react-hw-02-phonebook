@@ -7,6 +7,7 @@ const ListItem = styled.li`
   padding: 5px 5px 5px 10px;
   border: 1px solid grey;
   border-radius: 10px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:not(:last-child) {
     margin-bottom: 15px;

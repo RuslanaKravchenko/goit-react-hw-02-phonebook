@@ -4,9 +4,10 @@ const FilterFild = styled.div`
   .filter_input {
     display: block;
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 5px 20px;
     height: 40px;
-    width: 250px;
+    width: 100%;
+    max-width: 400px;
     border-radius: 10px;
 
     outline: none;
