@@ -37,18 +37,20 @@ const Form = styled.form`
     width: 200px;
     height: 40px;
     font-weight: 700;
+    color: #fff;
+    background-color: #7915c5;
+    border-color: #64787b;
 
-    background-color: #fff;
-    border-color: #a258e0f2;
     border-radius: 5px;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
 
     &:focus,
     &:hover {
-      color: #fff;
-      background-color: #7915c5;
-      box-shadow: 5px 5px 11px 2px rgba(156, 132, 189, 0.35);
+      color: #7915c5;
+      background-color: #fff;
+      border-color: #883dc7f2;
+      box-shadow: 6px 8px 18px 3px rgba(98, 46, 150, 0.23);
 
       outline: none;
     }

@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 const Main = styled.main`
-  margin: 0 auto;
-  max-width: 300px;
-
   @media (min-width: 768px) {
+    margin: 0 auto;
     max-width: 400px;
+  }
+  @media (min-width: 1280px) {
+    margin: 0 auto;
+    max-width: 700px;
   }
 
   .phonebook_title {

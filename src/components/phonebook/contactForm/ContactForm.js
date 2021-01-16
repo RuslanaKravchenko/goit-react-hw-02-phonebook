@@ -52,7 +52,7 @@ class ContactForm extends Component {
           <input
             className="form_input"
             placeholder="+38(067)-111-11-11"
-            type="text"
+            type="tel"
             name="number"
             value={number}
             onChange={this.onHandelChange}

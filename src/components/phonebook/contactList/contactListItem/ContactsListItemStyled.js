@@ -13,6 +13,7 @@ const ListItem = styled.li`
   }
 
   &:hover {
+    background-color: #f8f4fa;
     border: 1px solid #a75ee1;
     box-shadow: 5px 5px 11px 2px rgba(143, 108, 193, 0.45);
   }
@@ -35,14 +36,14 @@ const ListItem = styled.li`
     outline: none;
     cursor: pointer;
     background-color: transparent;
-  }
-  .listItem_icon {
-    fill: #3e3d3f;
 
-    &:focus,
-    &:hover {
+    &:focus .listItem_icon,
+    &:hover .listItem_icon {
       fill: #0b858b;
     }
+  }
+  .listItem_icon {
+    fill: #7c8181;
   }
 `;
 export default ListItem;
