@@ -89,7 +89,7 @@ const Phonebook = () => {
       <ContactForm addContact={addContact} />
 
       <h2 className="contacts_title">Contacts</h2>
-      {contacts.length > 1 && (
+      {contacts.length >= 1 && (
         <Filter onChange={handleFilterInputChange} filter={filter} />
       )}
 
@@ -217,7 +217,7 @@ export default Phonebook;
 //         <ContactForm addContact={this.addContact} />
 
 //         <h2 className="contacts_title">Contacts</h2>
-//         {contacts.length > 1 && (
+//         {contacts.length >= 1 && (
 //           <Filter onChange={this.handleFilterInputChange} filter={filter} />
 //         )}
 
