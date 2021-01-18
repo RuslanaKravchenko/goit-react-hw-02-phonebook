@@ -70,7 +70,7 @@ const Phonebook = () => {
 
   const deleteContact = e => {
     const id = e.currentTarget.dataset.id;
-    setContacts([...contacts.filter(item => item.id !== id)]);
+    setContacts(prevState => [...prevState.filter(item => item.id !== id)]);
   };
 
   const getFilteredContacts = () => {

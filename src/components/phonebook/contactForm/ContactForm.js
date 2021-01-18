@@ -14,7 +14,7 @@ const ContactForm = ({ addContact }) => {
 
   const onHandelChange = e => {
     const name = e.target.name;
-    setState({ ...state, [name]: e.target.value });
+    setState(prevState => ({ ...prevState, [name]: e.target.value }));
   };
 
   const onHandelSubmit = e => {
